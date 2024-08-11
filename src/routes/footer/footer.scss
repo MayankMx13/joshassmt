@@ -1,0 +1,131 @@
+.footer {
+    background-color: #F0F0F6;
+    padding-bottom: 76px;
+
+    .banner {
+
+        width: 1244px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px auto;
+        padding: 60px 98px;
+
+
+        img {
+            background: #F0F0F6;
+        }
+
+    }
+
+    .main {
+        display: flex;
+        align-items: flex-start;
+        width: 1244px;
+        margin: auto;
+        margin-bottom: 50px;
+
+
+    }
+
+    .bottom {
+        width: 1244px;
+        display: flex;
+        align-items: center;
+        margin: 0px auto;
+        margin-top: 50px;
+
+        justify-content: space-between;
+
+
+        .logos {
+            display: flex;
+            flex-direction: column;
+
+            gap: 20px;
+
+
+            .certi {
+                color: #767676;
+                font-kerning: none;
+
+                font-family: Inter;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 18px;
+                text-transform: capitalize;
+                height: 24px;
+                align-self: stretch;
+            }
+
+            .re {
+                display: flex;
+                flex-direction: column;
+                gap: 0px;
+
+
+            }
+
+            .yo {
+                width: 158px;
+                height: 76px;
+                flex-shrink: 0;
+            }
+
+            img {
+                width: 91px;
+                border-radius: 4px;
+                height: 39.999px;
+            }
+
+        }
+
+        .right {
+            display: flex;
+
+            gap: 170px;
+
+            .links {
+
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                h2 {
+                    margin-bottom: 20px;
+                }
+            }
+
+            .port {
+
+
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                h2 {
+                    margin-bottom: 20px;
+                }
+            }
+
+            .social {
+                display: flex;
+                flex-direction: column;
+
+                gap: 16px;
+
+
+                h2 {
+                    margin-bottom: 20px;
+                }
+
+            }
+        }
+    }
+
+    .copy {
+        text-align: center;
+        margin-top: 30px;
+    }
+}

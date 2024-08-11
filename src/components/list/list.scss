@@ -1,0 +1,92 @@
+.list {
+    height: 307px;
+    width: 320px;
+    background: #FFF;
+
+    .wrapper {
+        padding: 25px 19px;
+
+        .review {
+
+            margin-top: 16.86px;
+            width: 133px;
+            height: 44px;
+            color: #2B2B2B;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 500;
+
+
+        }
+
+        .description {
+            width: 273px;
+            height: 70px;
+            align-items: start;
+            color: #767676;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            text-transform: capitalize;
+        }
+
+
+        .user {
+            width: 273px;
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            justify-content: center;
+            padding-top: 30px;
+
+
+
+            .avatar {
+                width: 69px;
+                height: 69px;
+
+                img {
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+
+            .name {
+
+                flex-direction: column;
+                display: flex;
+                align-items: start;
+                justify-content: start;
+
+                .username {
+                    color: var(--Black, #2B2B2B);
+
+                    /* H4 - 18px */
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 123.6%;
+                    /* 22.248px */
+                    text-transform: capitalize;
+                }
+
+                .designation {
+                    color: var(--Paragraph-Font, #767676);
+                    font-kerning: none;
+                    font-feature-settings: 'calt' off;
+
+                    /* Paragraph Progress - 15 */
+                    font-family: Inter;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    /* 160% */
+                    text-transform: capitalize;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.card {
+
+
+    margin-top: 62px;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background: #FFF;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.10);
+
+    .imageContainer {
+        img {
+            height: 256px;
+            align-self: stretch;
+        }
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        margin-top: 16px;
+
+        gap: 3.67px;
+
+        .head {
+            padding: 0px 16px;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 123.6%;
+            /* 19.776px */
+            text-transform: capitalize;
+        }
+
+        .sub {
+            padding: 0px 16px;
+            width: 353px;
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            /* 171.429% */
+            text-transform: capitalize;
+        }
+    }
+
+    .skills {
+        width: 358px;
+        display: flex;
+
+
+        ul {
+            padding: 0px 16px;
+            width: 385px;
+            display: flex;
+            flex-wrap: wrap;
+
+
+
+            gap: 10px;
+            padding-top: 15px;
+            padding-bottom: 20px;
+
+            li {
+                list-style-type: none;
+                border: 1px solid rgba(0, 0, 0, 0.05);
+                background: #EFEFEF;
+                padding: 5px 14px;
+                border-radius: 50px;
+
+            }
+        }
+    }
+}

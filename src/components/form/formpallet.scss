@@ -1,0 +1,193 @@
+.formpallet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    background-color: #F0F0F6;
+
+    .wrapper {
+
+        width: 1244px;
+        height: 760px;
+        display: flex;
+
+
+
+        .left {
+            width: 845px;
+
+
+            form {
+                margin-top: 45px;
+                padding: 39px 36px;
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                background-color: white;
+
+                input {
+
+                    width: 773.384px;
+                    height: 50px;
+                    flex-shrink: 0;
+                    margin-bottom: 22px;
+                    background-color: #F0F0F6;
+                    border: none;
+                }
+
+                label {
+                    width: 100%;
+                    color: var(--Paragraph-Font, #767676);
+                    font-family: Inter;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 123.6%;
+
+                    text-transform: capitalize;
+                }
+
+                textarea {
+                    width: 773.384px;
+                    height: 210.422px;
+                    flex-shrink: 0;
+                    margin-bottom: 22px;
+                    background-color: #F0F0F6;
+                    border: none;
+                    resize: none;
+
+                }
+
+                button {
+
+                    display: flex;
+                    width: 151px;
+                    height: 50.833px;
+                    padding: 17px 16px;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 5px;
+                    background: #FFB400;
+                    border: none;
+                }
+            }
+        }
+
+        .right {
+            flex: 1;
+
+            h4 {
+
+
+
+                font-family: Inter;
+                font-size: 25px;
+                font-style: normal;
+                font-weight: 700;
+
+                text-transform: capitalize;
+                width: 318px;
+                height: 39px;
+                flex-shrink: 0;
+                margin-left: 20px;
+            }
+
+            .cardContainer {
+                display: flex;
+                flex-direction: column;
+                margin-left: 20px;
+                gap: 13px;
+                height: 669px;
+                width: 373px;
+                margin-top: 51px;
+
+
+                .card {
+                    width: 373px;
+                    height: 211px;
+                    margin-top: 0px;
+                    border-radius: 0px;
+                    border: none;
+                    box-shadow: none;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    align-items: center;
+                    justify-content: center;
+
+
+                    .imgContainer {
+                        background-color: #FFB400;
+                        height: 40px;
+                        width: 40px;
+                        border-radius: 50%;
+                        border: none;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        img {
+                            height: 18px;
+                            width: 18px;
+                        }
+                    }
+
+                    .detailContainer {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 5px;
+
+                        width: 100%;
+                        padding: 0px 25px;
+
+
+                        .detail {
+                            display: flex;
+                            justify-content: space-between;
+                            padding: 5px 0;
+
+                            .det1 {
+                                flex: 1;
+                                color: var(--Paragraph-Font, #767676);
+
+                                /* H4 - 18px */
+                                font-family: Inter;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 123.6%;
+                                /* 22.248px */
+                                text-transform: capitalize;
+                            }
+
+                            .det2 {
+                                text-align: right;
+                                color: var(--Paragraph-Font, #767676);
+                                text-align: right;
+                                font-kerning: none;
+                                font-feature-settings: 'calt' off;
+
+                                /* Paragraph Progress - 15 */
+                                font-family: Inter;
+                                font-size: 15px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 24px;
+                                /* 160% */
+                                text-transform: capitalize;
+                            }
+                        }
+                    }
+
+
+
+
+
+                }
+
+
+            }
+        }
+    }
+}
