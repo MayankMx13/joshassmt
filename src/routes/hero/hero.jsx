@@ -1,3 +1,4 @@
+
 import './hero.scss'
 
 function Hero() {

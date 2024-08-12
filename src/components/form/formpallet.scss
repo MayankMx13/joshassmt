@@ -1,3 +1,6 @@
+@import "../../responsive.scss";
+
+
 .formpallet {
     display: flex;
     align-items: center;
@@ -5,6 +8,10 @@
 
     height: 100%;
     background-color: #F0F0F6;
+
+    @include sm {
+        width: 1500px;
+    }
 
     .wrapper {
 

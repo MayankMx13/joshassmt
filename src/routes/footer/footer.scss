@@ -1,6 +1,13 @@
+@import "../../responsive.scss";
+
+
 .footer {
     background-color: #F0F0F6;
     padding-bottom: 76px;
+
+    @include sm {
+        width: 1500px;
+    }
 
     .banner {
 

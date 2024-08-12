@@ -1,3 +1,5 @@
+@import "../../responsive.scss";
+
 .hero {
     display: flex;
     justify-content: space-between;
@@ -5,6 +7,10 @@
     width: 100%;
     height: 630px;
     flex-shrink: 0;
+
+    @include sm {
+        width: 1500px;
+    }
 
     .left {
         display: flex;

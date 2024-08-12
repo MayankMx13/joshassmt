@@ -1,4 +1,10 @@
+@import "../../responsive.scss";
+
 .navbar {
+
+    @include sm {
+        width: 1500px;
+    }
 
 
 
